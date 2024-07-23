@@ -111,6 +111,38 @@ The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. 
 - Total = 320.53 + 16.0265 = 336.5565
 - Gross Margin = 16.0265 / 336.5565 ≈ 4.76%
 
+### Explanation of Terms and Data Types
+
+1. **cogs (Cost of Goods Sold)**:
+   - **Description**: The total cost to produce or buy the goods sold. Includes materials, labor, and overhead costs.
+   - **Data Type**: `DECIMAL(10,2)`
+     - **DECIMAL**: Used for exact numbers, good for financial data.
+     - **10,2**: Up to 10 digits with 2 decimal places (e.g., `12345678.90`).
+
+2. **gross_margin_pct (Gross Margin Percentage)**:
+   - **Description**: The percentage of sales revenue left after covering the cost of goods sold. It shows profitability.
+   - **Data Type**: `FLOAT(11,9)`
+     - **FLOAT**: Used for approximate numbers, good for measurements.
+     - **11,9**: Up to 11 digits with 9 decimal places (e.g., `12.345678901`).
+
+3. **gross_income (Gross Income)**:
+   - **Description**: Total income from sales before expenses. Calculated as sales revenue minus the cost of goods sold.
+   - **Data Type**: `DECIMAL(12,4)`
+     - **DECIMAL**: Used for exact numbers.
+     - **12,4**: Up to 12 digits with 4 decimal places (e.g., `12345678.1234`).
+
+4. **rating**:
+   - **Description**: Customer rating of the product or service, usually from feedback or surveys.
+   - **Data Type**: `FLOAT(2,1)`
+     - **FLOAT**: Used for approximate numbers.
+     - **2,1**: Up to 2 digits with 1 decimal place (e.g., `4.5`).
+
+### Data Type Differences
+
+- **DECIMAL vs. FLOAT**:
+  - **DECIMAL**: For precise values, good for financial data to avoid rounding errors.
+  - **FLOAT**: For approximate values, suitable for scientific and statistical data where exactness is less crucial.
+
 ## 📫 How to Reach Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parimalautade)
