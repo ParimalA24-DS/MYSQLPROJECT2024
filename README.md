@@ -1,7 +1,7 @@
 # MYSQLPROJECT2024
 # 📊2.MYSQLPROJECT: Walmart Sales Analysis
 
-![Walmart Sales](https://github.com/ParimalA24-DS/ParimalA24-DS/blob/main/DSPROFILEIMAGES/banner.png)
+![Walmart Sales](https://github.com/ParimalA24-DS/MYSQLPROJECT2024/blob/main/2.MySQL-Walmart-Sales-Analysis/WALMART2.gif)
 
 ## 🛒 Project Overview
 
